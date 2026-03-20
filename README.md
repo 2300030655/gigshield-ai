@@ -1,7 +1,7 @@
 # GigShield AI - Parametric Insurance for Gig Workers
 
 ## 📌 Problem Statement
-Delivery partners (Swiggy/Zomato) lose 20–30% of their income due to external disruptions like heavy rain, extreme heat, pollution, and curfews. Currently, there is no income protection system for them.
+Delivery partners (Swiggy/Zomato) lose 20–30% of their income due to external disruptions like heavy rain, extreme heat, pollution, and curfews. Currently, there is no structured income protection system available for them.
 
 ---
 
@@ -106,12 +106,38 @@ We ensure genuine users are not penalized during network issues by allowing retr
 
 ---
 
+## 🏗️ System Architecture
+
+GigShield AI is designed as a scalable system:
+
+- Frontend handles user onboarding and dashboard  
+- Backend processes risk scoring, triggers, and claims  
+- AI layer performs risk prediction and fraud detection  
+- APIs provide real-time environmental data  
+- Payment system enables instant payouts  
+
+The system is fully automated with zero manual intervention.
+
 ## 🛠️ Tech Stack
-- Frontend: React (Vite)  
-- Backend: Node.js / Spring Boot  
-- Database: MongoDB  
-- APIs: Weather API  
-- Payments: Razorpay (test mode)  
+
+- **Frontend:** React (Vite) – User dashboard and onboarding  
+- **Backend:** Node.js / Spring Boot – Business logic and API handling  
+- **Database:** MongoDB – Stores user profiles, policies, and claims  
+
+### 🔗 APIs & Data Sources
+- Weather API – Rainfall, temperature detection  
+- Air Quality API – AQI monitoring  
+- Traffic Data (Mock) – Delivery feasibility analysis  
+- Platform Activity Data (Mock) – Delivery behavior tracking  
+- Government Alerts (Mock) – Curfew/restriction detection  
+
+### 💳 Payments
+- Razorpay (Test Mode) – Simulated instant payouts  
+
+### 🤖 AI/ML Layer
+- Risk Scoring Model – Dynamic premium calculation  
+- Income Loss Estimation Model  
+- Fraud Detection Model – Anomaly detection & spoofing prevention  
 
 ---
 
@@ -121,6 +147,11 @@ We ensure genuine users are not penalized during network issues by allowing retr
 - Integration with delivery platforms  
 
 ---
+## 🎥 Demo Video
+
+> 🎬 **Click below to watch our 2-minute project walkthrough**
+
+🔗 [▶️ Click to Watch](https://youtu.be/PVqK4OZDV4I?si=3meY_RtWCSdNm_JD)
 
 ## 🚀 Conclusion
 GigShield AI ensures financial protection for gig workers by combining AI-driven risk assessment, parametric automation, and strong fraud prevention mechanisms.
